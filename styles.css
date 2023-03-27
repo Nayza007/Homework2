@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container_main {
+  background: aqua;
+  height: auto;
+  display: flex;
+  gap: 3rem;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.box_home {
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.box_home a {
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+}
+
+.item01 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.item02 {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: -30px;
+}
+.borderbar {
+  width: 450px;
+  height: 20px;
+  display: flex;
+  flex-flow: row;
+  width: 500px;
+  height: 20px;
+  background-image: linear-gradient(90deg, rgb(0, 229, 255) 80%, white 20%);
+  box-shadow: 2px 2px 6px 1px rgba(9, 9, 9, 0.3);
+}
+
+.box_button {
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  background: rgb(0, 132, 255);
+  border: none;
+}
+.box_line {
+  width: 60%;
+  margin-top: 370px;
+}
+.line_style {
+  border: 0.5px solid whitesmoke;
+  width: 100%;
+  opacity: 2;
+  margin-bottom: -40px;
+}
+
+.item03 {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon {
+  border: 4px solid white;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: -45px;
+  color: white;
+}
+
+.box_footer {
+  width: 100%;
+  text-align: center;
+  margin-top: -30px;
+}
